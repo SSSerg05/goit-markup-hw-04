@@ -211,11 +211,11 @@
     margin-right: auto;
     outline: 1px solid black;
     /* background-color: var(--color-dark); */
-    /* background-image: linear-gradient(
+    background-image: linear-gradient(
         to right, 
-        rgba(0, 0, 0, 0.2), 
-        rgba(0, 0, 0, 0.2)),  */
-    background-image: url("../images/people-office.jpg");
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)),
+        url("../images/people-office.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
