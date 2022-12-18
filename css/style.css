@@ -113,6 +113,9 @@
     text-decoration: none;  
     outline: none;  
 }
+
+.current { color: var(--color-iris); }
+
 .contact-item-link[href*="tel:"]{ text-transform: uppercase; }
 .menu-item-link {
     font-size: var(--fs-nav); /* 16 */
@@ -238,6 +241,21 @@
 .product-item:last-child,
 .team-item:last-child,
 .filter-item:last-child { margin-right: 0; }
+
+.feature-item::before {
+    display: block;
+    content: "";
+    height: 112px;
+    outline: 1px solid black;
+    background-color: var(--color-light);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.icon-antenna { background-image: url(../images/antenna.png); }
+.icon-clock{ background-image: url(../images/clock.png); }
+.icon-diagram { background-image: url(../images/diagram.png); }
+.icon-astronaut { background-image: url(../images/astronaut.png); }
 
 /* Team-card */
 .team-card {
