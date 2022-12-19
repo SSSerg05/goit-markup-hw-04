@@ -319,31 +319,31 @@
 .gallery-item-text { color: var(--color-white); }
 
 
-.social-list {
+.team-social-list {
     margin-top: 8px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     padding: 0 4px;
 }
-.social-item:not(:last-child) {
+.team-social-item:not(:last-child) {
     margin-right: 24px;
 }
 
-.btn-social { 
+.btn-team-social { 
     background-color: #4d5ae5;
     border-radius: 50%;
     width: 40px;
     height: 40px;
     border: none;
 }
-.btn-social-icon {
-    display: inline-block;
+.btn-team-social-icon {
+    display: inline-flex;
     width: 16px;
     height: 16px;
     fill: var(--color-white);
 }
-.btn-social-icon:hover {
+.btn-team-social-icon:hover {
     fill: red;
 }
 
