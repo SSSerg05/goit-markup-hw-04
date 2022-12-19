@@ -319,6 +319,33 @@
 .gallery-item-text { color: var(--color-white); }
 
 
+.social-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 16px 8px;
+}
+.social-item {
+
+}
+.btn-social { 
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.btn-social-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    fill: var(--color-white);
+}
+.btn-social-icon:hover {
+    fill: red;
+}
+
+
 /* Footer */
 .footer {
     padding-top: 100px;
