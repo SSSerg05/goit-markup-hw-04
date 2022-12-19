@@ -242,20 +242,21 @@
 .team-item:last-child,
 .filter-item:last-child { margin-right: 0; }
 
+
+/* - icons - */
 .feature-item::before {
     display: block;
     content: "";
     height: 112px;
-    outline: 1px solid black;
-    background-color: var(--color-light);
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center;
+    background-color: var(--color-light);
+    margin-bottom: 8px;
 }
-.icon-antenna { background-image: url(../images/antenna.png); }
-.icon-clock{ background-image: url(../images/clock.png); }
-.icon-diagram { background-image: url(../images/diagram.png); }
-.icon-astronaut { background-image: url(../images/astronaut.png); }
+.icon-antenna::before { background-image: url(../images/antenna.svg); }
+.icon-clock::before{ background-image: url(../images/clock.svg); }
+.icon-diagram::before { background-image: url(../images/diagram.svg); }
+.icon-astronaut::before { background-image: url(../images/astronaut.svg); }
 
 /* Team-card */
 .team-card {
