@@ -212,8 +212,8 @@
     min-height: 603px;
     margin-left: auto;
     margin-right: auto;
-    outline: 1px solid black;
-    /* background-color: var(--color-dark); */
+    /* outline: 1px solid black; */
+    background-color: var(--color-dark);
     background-image: linear-gradient(
         to right, 
         rgba(0, 0, 0, 0.5), 
