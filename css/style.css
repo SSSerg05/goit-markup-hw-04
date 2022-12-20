@@ -65,13 +65,15 @@
     align-items: center;
 }
 
-/* Logo */
-.logo { display: inline-block; }
-.logo-link {
-    display: inline-block;
+link {
+    display: inline-flex;
     text-decoration: none;
     outline: none;
+}
 
+/* Logo */
+.logo { display: inline-flex; }
+.logo-link {
     font-family: 'Raleway', sans-serif;
     font-size: var(--fs-logo); /* 18px; */
     font-weight: 800;
@@ -343,6 +345,9 @@
 }
 
 .btn-team-social { 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--color-iris);
     border-radius: 50%;
     width: 40px;
@@ -350,7 +355,6 @@
     border: none;
 }
 .btn-team-social-icon {
-    display: inline-flex;
     width: 16px;
     height: 16px;
     fill: var(--color-white);
@@ -366,19 +370,24 @@
 }
 
 .customer-card {
-    /* width: 168px;
-    height: 88px; */
-    /* padding: 16px 32px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--color-white);
-    border: 1px solid var(--color-subtle-text);
+    width: 168px;
+    height: 88px;
     border-radius: 4px;
-    /* fill: var(--color-subtle-text); */
+    border: 1px solid var(--color-subtle-text);
+}
+.customer-link {
 }
 .customer-icon {
     width: 104px;
     height: 56px;
-    margin: 16px 32px;
     fill: var(--color-subtle-text);
+}
+.customer-card:hover {
+    border: 1px solid var(--color-iris);
 }
 .customer-icon:hover {
     fill: var(--color-iris);
@@ -389,4 +398,33 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.footer-content { width: 264px; }
+.footer-card { width: 264px; }
+
+.footer-list { display: flex; }
+.footer-item:not(:last-child) { margin-right: 120px; }
+.footer-social-list { display: flex; }
+.footer-social-item:not(:last-child) { margin-right: 24px; }
+.title-footer { 
+    margin-top: 0; 
+    margin-bottom: 16px;
+}
+.link-footer-social {
+    display: inline-flex;
+    
+
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-subtle-text);  
+}
+.link-footer-social-icon { 
+    width: 24px;
+    height: 24px;
+    fill: var(--color-white);
+
+}
+.link-footer-social:hover {
+    /* fill: var(--color-white); */
+    background-color: var(--color-success);
+}
