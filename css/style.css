@@ -262,6 +262,7 @@ link {
 .icon-clock::before{ background-image: url(../images/clock.svg); }
 .icon-diagram::before { background-image: url(../images/diagram.svg); }
 .icon-astronaut::before { background-image: url(../images/astronaut.svg); } */
+
 .feature-card {
     height: 112px;
     padding: 24px 0;
