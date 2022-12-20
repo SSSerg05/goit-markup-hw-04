@@ -359,8 +359,11 @@ link {
     height: 16px;
     fill: var(--color-white);
 }
-.btn-team-social-icon:hover {
-    fill: red;
+
+.btn-team-social:focus,
+.btn-team-social:active,
+.btn-team-social:hover {
+    background-color: var(--color-btn-active);
 }
 
 
@@ -392,6 +395,8 @@ link {
 /* .customer-link:hover {
     outline: 1px solid var(--color-iris);
 } */
+.customer-icon:focus,
+.customer-icon:active,
 .customer-icon:hover {
     fill: var(--color-iris);
     outline: 1px solid var(--color-iris);
@@ -430,6 +435,9 @@ link {
     fill: var(--color-white);
 
 }
+
+.link-footer-social:active,
+.link-footer-social:focus,
 .link-footer-social:hover {
     /* fill: var(--color-white); */
     background-color: var(--color-success);
