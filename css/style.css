@@ -447,7 +447,7 @@ link {
 .link-footer-social-icon { 
     width: 24px;
     height: 24px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     fill: var(--color-white);
 }
 
