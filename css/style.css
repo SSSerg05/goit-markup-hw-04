@@ -265,11 +265,12 @@ link {
 .icon-astronaut::before { background-image: url(../images/astronaut.svg); } */
 
 .feature-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 112px;
-    padding: 24px 0;
     background-color: var(--color-light);
     border-radius: 4px;
-    text-align: center;
     margin-bottom: 8px;
 }
 .feature-card-icon {
@@ -359,10 +360,13 @@ link {
     margin-bottom: 48px;
 }
 .gallery-card {
-    border-bottom: 0.5px solid #F4F4FD;    
+    border-bottom: 0.5px solid #F4F4FD;
 }
 .gallery-card:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+                0px 1px 1px rgba(46, 47, 66, 0.16), 
+                0px 2px 1px rgba(46, 47, 66, 0.08);
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
 
 .gallery-image {
@@ -404,9 +408,9 @@ link {
     outline: 1px solid var(--color-subtle-text);
 }
 
-.customer-icon:focus,
-.customer-icon:active,
-.customer-icon:hover {
+.customer-link:focus .customer-icon,
+.customer-link:active .customer-icon,
+.customer-link:hover .customer-icon {
     fill: var(--color-iris);
     outline: 1px solid var(--color-iris);
 }
@@ -437,7 +441,8 @@ link {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--color-subtle-text);  
+    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: var(--color-subtle-text);   */
 }
 .link-footer-social-icon { 
     width: 24px;
