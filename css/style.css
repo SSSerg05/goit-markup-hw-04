@@ -407,7 +407,10 @@ ol,
 }
 
 .gallery-image .text { padding: 40px 32px; }
-.gallery-title-block { padding: 32px 16px; }
+.gallery-title-block { 
+    color: var(--color-text);
+    padding: 32px 16px; 
+}
 .gallery-item-text { color: var(--color-white); }
 
 
